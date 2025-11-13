@@ -10,7 +10,7 @@ const Home: React.FC = () => {
   return (
     <div className="space-y-16 md:space-y-24">
       {/* Hero Section */}
-      <section className="bg-yellow-50">
+      <section className="bg-emerald-0">
         <div className="container mx-auto px-6 py-12 md:py-16">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             {/* Text Content */}
@@ -33,7 +33,7 @@ const Home: React.FC = () => {
             {/* Image Content */}
             <div className="order-first md:order-last">
               <img
-                src="/images/1 (4).png"
+                src="/images/hero.png"
                 alt="Model wearing an Atelier Jiboia t-shirt in a stylish parisian cafe"
                 className="rounded-lg shadow-xl w-full h-auto max-h-[600px] object-cover object-center"
               />
@@ -59,7 +59,7 @@ const Home: React.FC = () => {
         <div className="container mx-auto px-6 py-20 flex flex-col md:flex-row items-center gap-12">
           <div className="md:w-1/2">
             <img
-              src="/images/louis (2).png"
+              src="/images/hero.png"
               alt="The founders of Atelier Jiboia"
               className="rounded-lg shadow-xl"
             />
